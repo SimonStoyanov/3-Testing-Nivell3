@@ -262,7 +262,7 @@ describe('Function "orderByYear"', () => {
 
   it('should return a new array', () => {
     const arr = [];
-    expect(orderByYear(arr)).not.toMatchObject(arr);
+    expect(orderByYear(arr)).not.toBe(arr);
   });
 
   it('should return the element in a single element array', () => {
